@@ -1,9 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
 const TypeA = () => {
   const [portfolioData, setPortfolioData] = useState([]);
   const [skillsetData, setSkillsetData] = useState([]);
+  const targetRef = useRef(null);
+
+  const scrollToDown = () => {
+    targetRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
     axios
@@ -24,18 +29,22 @@ const TypeA = () => {
     <main className="w-screen h-screen">
       {/* About Me */}
       {/* 배경 이미지는 마음에 드는 것으로 변경합니다. */}
-      <section className="flex flex-col justify-center items-center gap-8 w-full h-full p-4 bg-[url('/images/bg_developer.jpg')] bg-cover bg-center text-[#fff]">
+      <section className="flex flex-col justify-center items-center gap-24 w-full h-full p-4 bg-[url('/images/bg_developer.jpg')] bg-cover bg-center text-[#fff]">
         {/* 자신의 이름으로 변경합니다. */}
         <h1 className="text-6xl font-bold [text-shadow:2px_2px_6px_#888]">
-          OOO의 포트폴리오 웹 사이트입니다.
+          OOO의 포트폴리오 웹 사이트입니다. 간략한 소개나 인사말을 적습니다.
         </h1>
-        <span className="text-3xl [text-shadow:2px_2px_6px_#888]">
-          간략한 자기 소개나 인사말을 적습니다.
-        </span>
+        <button
+          type="button"
+          className="w-12 animate-bounce"
+          onClick={scrollToDown}
+        >
+          <img src="/images/icon_mouse.png" alt="마우스 아이콘" />
+        </button>
       </section>
 
       {/* Portfolio */}
-      <section className="py-16 px-4 lg:px-8">
+      <section ref={targetRef} className="py-16 px-4 lg:px-8">
         <div className="flex flex-col items-center gap-16 w-full">
           <h1 className="text-6xl font-bold">PORTFOLIO</h1>
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">

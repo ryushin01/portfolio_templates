@@ -1,0 +1,38 @@
+{
+  "result": [
+    {
+      "targetDevice": "pc",
+      "deployUrl": "/",
+      "projectName": "goobEune",
+      "projectImage": "../goobne/images/main_banner_01.jpg",
+      "description": "굽네치킨 클론 코딩",
+      "techStacks": ["React", "styled-components"],
+      "mainTask": [
+        "Axios 모듈화",
+        "Button & Input 컴포넌트",
+        "장바구니 로직 개발"
+      ],
+      "repoUrl": "https://github.com/ryushin01/goobne"
+    },
+    {
+      "targetDevice": "mobile",
+      "deployUrl": "/",
+      "projectName": "test",
+      "projectImage": "",
+      "description": "test",
+      "techStacks": ["React", "styled-components"],
+      "mainTask": ["N/A"],
+      "repoUrl": "https://github.com/ryushin01/goobne"
+    },
+    {
+      "targetDevice": "responsive",
+      "deployUrl": "/",
+      "projectName": "sample",
+      "projectImage": "",
+      "description": "sample",
+      "techStacks": ["React", "styled-components"],
+      "mainTask": ["N/A"],
+      "repoUrl": "https://github.com/ryushin01/goobne"
+    }
+  ]
+}

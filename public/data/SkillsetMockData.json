@@ -1,0 +1,87 @@
+{
+  "result": [
+    {
+      "stackImage": "/images/skillset/react.svg",
+      "stackName": "React",
+      "description": [
+        "useState(), useEffect(), useNavigate() 등 React의 다양한 hooks를 다룰 수 있습니다.",
+        "컴포넌트 기반 개발에 익숙하며, 다른 개발자들과 협의를 통해 합리적인 선에서 컴포넌트 단위를 재단합니다."
+      ]
+    },
+    {
+      "stackImage": "/images/skillset/styledcomponents.svg",
+      "stackName": "styled-components",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/javascript.svg",
+      "stackName": "JavaScript",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/vite.svg",
+      "stackName": "Vite",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/git.svg",
+      "stackName": "Git",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/axios.svg",
+      "stackName": "Axios",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/createreactapp.svg",
+      "stackName": "CRA",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/css3.svg",
+      "stackName": "CSS",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/html5.svg",
+      "stackName": "HTML",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/recoil.svg",
+      "stackName": "Recoil",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/redux.svg",
+      "stackName": "Redux",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/sass.svg",
+      "stackName": "Sass",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/swiper.svg",
+      "stackName": "Swiper",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/tailwindcss.svg",
+      "stackName": "Tailwind CSS",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/typescript.svg",
+      "stackName": "TypeScript",
+      "description": ["text"]
+    },
+    {
+      "stackImage": "/images/skillset/vuejs.svg",
+      "stackName": "Vue",
+      "description": ["text"]
+    }
+  ]
+}

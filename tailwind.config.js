@@ -3,8 +3,9 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],  theme: {
     extend: {},
     colors: {
-      primary: "#000",
-      secondary: "#fff",
+      primary: "#eb2f06",
+      secondary: "#f39c12",
+      tertiary: "#ffc312",
     }
   },
   plugins: [],
